@@ -125,7 +125,7 @@ body {
   }
   
   .gallery img {
-    width: 300px;
+    width: 280px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.1);
@@ -391,5 +391,58 @@ body {
     margin: 0.5rem 0 0;
     color: #ccc;
     font-size: 0.95rem;
+  }
+
+  /* ================================
+   EQUIPO DE TRABAJO
+================================ */
+.team-section {
+
+    padding: 2rem;
+    color: #f2f2f2;
+    margin-top: 2rem;
+  }
+  
+  .team-section h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .team-member {
+    background-color: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+  
+  .team-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #8c1212;
+  }
+  
+  .team-member h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  
+  .team-member p {
+    margin: 0.3rem 0 0;
+    font-size: 0.95rem;
+    color: #ccc;
   }
   
