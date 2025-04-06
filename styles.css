@@ -141,12 +141,44 @@ body {
   /* ================================
      SECCIÓN ¿POR QUÉ ELEGIRNOS?
   ================================ */
+  
   .about, .team, .services-details {
-    background-color: #2b2b2b;
-    padding: 2rem;
+    background-color: #222020;
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.3);
     color: #f2f2f2;
+  }
+  .services-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .services-details .service-block {
+    background-color: #1f1f1f;
+    color: #dddddd;
+    padding: 2rem;
+    border-radius: 8px;
+    flex: 1 1 45%;
+    min-width: 300px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .services-details .service-title {
+    background-color: #242424;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: -3.5rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    letter-spacing: 0.5px;
   }
   
   .about h3,
@@ -215,8 +247,6 @@ body {
     background-color: #1f1f1f;
     color: #dddddd;
     padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 8px;
     position: relative;
   }
   
